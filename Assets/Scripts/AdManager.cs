@@ -22,6 +22,7 @@ public class AdManager : MonoBehaviour
 
         GUIStyle style = new GUIStyle(GUI.skin.button);
         style.normal.background = texture;
+        Destroy(texture);
         style.normal.textColor = Color.yellow;
         style.fontSize = 48;
 
